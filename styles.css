@@ -1,0 +1,261 @@
+html {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  font-size: 10px;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin: 0;
+}
+
+.center-align {
+  text-align: center;
+}
+
+.left-align {
+  text-align: left;
+}
+
+/* Navbar */
+.navbar {
+  height: auto;
+  width: auto;
+  background-color: white;
+  color: black;
+}
+
+.navbar-brand {
+  width: 100px;
+  color: black;
+}
+
+.nav-item {
+  text-align: right;
+  font-size: 1.5rem;
+  padding: 0 1rem;
+}
+
+/*Header*/
+#header {
+  background-color: white;
+}
+
+.hero-image {
+  background-image: url("Images/grinding.jpg");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(12, auto);
+  grid-template-rows: repeat(12, 8.3333333%);
+  animation-name: animate-header-text;
+  animation-duration: 2s;
+}
+
+.hero-text {
+  text-align: center;
+  grid-column: 2;
+  grid-row: 6;
+  color: black;
+}
+
+@keyframes animate-header-text {
+  0% {
+    opacity: 0;
+    box-shadow: 0px 3px white;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.header-text-large {
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: left;
+  background-color: white;
+  box-shadow: 0 10px white;
+  animation-name: animate-header-text;
+  animation-duration: 2.5s;
+}
+
+.header-text-small {
+  font-size: 3rem;
+  font-weight: 500;
+  text-align: left;
+  background-color: white;
+  animation-name: animate-header-text;
+  animation-duration: 2.5s;
+}
+
+/* About us */
+#about-us{
+  background-color: white;
+  position: relative;
+  margin: 5% 2.5%;
+  height: 400px;
+  max-height: 500px;
+  /* display: grid;
+  grid-template-columns: repeat(12, 8.333333%);
+  grid-template-rows: repeat(12, 8.333333%);
+  margin: 5rem auto; */
+}
+.about{
+  grid-column: 3/7;
+  grid-row: 5;
+}
+.heading{
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.desc{
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.about-img{
+  vertical-align: middle;
+  grid-row: 4/10;
+  grid-column: -2/-5;
+  width: 350px;
+  height: auto;
+}
+
+/* Company Services */
+#company-services{
+  background-color: white;
+  position: relative;
+  margin: 5% 2.5%;
+  height: 400px;
+  max-height: 500px;
+}
+.box1{
+  background-color: red;
+  width: 100px;
+  height: auto;
+}
+.box2{
+  background-color: green;
+  width: 100px;
+  height: auto;
+}
+.box3{
+  background-color: yellow;
+  width: 100px;
+  height: auto;
+}
+.card-img-top{
+  width: auto;
+  height: 10vw;
+}
+.card-title{
+  font-size: 0.8vw;
+}
+
+
+/* Client */
+#client-new{
+  background-color: white;
+  position: relative;
+  margin: 5% 2.5%;
+  height: 400px;
+  max-height: 500px;
+}
+.column-client{
+  float: left;
+  width: 50%;
+  height: auto;
+  padding: 5px;
+}
+.icon-spacing{
+  height: 2rem;
+}
+.grid-spacing-client-icons{
+  width: 90px;
+  height: 90px;
+}
+
+.right-arrow{
+  color: black;
+}
+.right-arrow:hover{
+  color: green;
+}
+.spacer-lol{
+  margin: 2rem 0;
+}
+.card-deck{
+  width: 40vw;
+}
+
+/* Footer */
+#footer {
+  background-color: white;
+  position: relative;
+  margin: 5% 2.5% 0 2.5%;
+}
+
+.bold-text {
+  font-weight: bolder;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.address-text {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.company-logo-footer {
+  width: 200px;
+  height: auto;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.company-address {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.quick-links {
+  list-style-type: none;
+  text-align: left;
+  margin-left: 50%;
+  margin-right: 50%;
+}
+
+.contact-links {
+  vertical-align: middle;
+}
+
+.icons {
+  margin: 10px 5px;
+}
+
+.fa-twitter-square {
+  color: black;
+}
+
+.fa-facebook-square {
+  color: black;
+}
+
+.fa-linkedin {
+  color: black;
+}
+
+.fa-twitter-square:hover {
+  color: #00acee;
+}
+
+.fa-facebook-square:hover {
+  color: #4267B2;
+}
+
+.fa-linkedin:hover {
+  color: #0e76a8;
+}
