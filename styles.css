@@ -6,6 +6,10 @@ html {
   padding-right: 5%;
   margin: 0;
 }
+body{
+  background-color: white;
+  text-align: center;
+}
 
 .center-align {
   text-align: center;
@@ -15,7 +19,19 @@ html {
   text-align: left;
 }
 
+.heading{
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.desc{
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
 /* Navbar */
+#navbar{
+  position: relative;
+}
 .navbar {
   height: auto;
   width: auto;
@@ -35,8 +51,9 @@ html {
 }
 
 /*Header*/
-#header {
-  background-color: white;
+#header{
+  position: relative;
+  margin: 0 2.5%;
 }
 
 .hero-image {
@@ -93,75 +110,43 @@ html {
 
 /* About us */
 #about-us{
-  background-color: white;
   position: relative;
   margin: 5% 2.5%;
-  height: 400px;
-  max-height: 500px;
-  /* display: grid;
-  grid-template-columns: repeat(12, 8.333333%);
-  grid-template-rows: repeat(12, 8.333333%);
-  margin: 5rem auto; */
 }
-.about{
-  grid-column: 3/7;
-  grid-row: 5;
-}
-.heading{
-  font-size: 2.5rem;
-  font-weight: bold;
-}
-.desc{
-  font-size: 1.5rem;
-  font-weight: 400;
-}
+
 .about-img{
-  vertical-align: middle;
-  grid-row: 4/10;
-  grid-column: -2/-5;
-  width: 350px;
-  height: auto;
+  background-image: url(Images/about.jpg);
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: block;
+
 }
 
-/* Company Services */
-#company-services{
-  background-color: white;
+/* Services */
+#services{
   position: relative;
   margin: 5% 2.5%;
-  height: 400px;
-  max-height: 500px;
 }
-.box1{
-  background-color: red;
-  width: 100px;
-  height: auto;
+
+.card-deck{
+  margin-top: 2%;
 }
-.box2{
-  background-color: green;
-  width: 100px;
-  height: auto;
-}
-.box3{
-  background-color: yellow;
-  width: 100px;
-  height: auto;
-}
+
 .card-img-top{
-  width: auto;
-  height: 10vw;
+  height: 150px;
 }
-.card-title{
-  font-size: 0.8vw;
+
+.card-img-top:hover {
+  opacity: 0.7;
 }
 
 
-/* Client */
-#client-new{
-  background-color: white;
+/* Clients */
+#clients{
   position: relative;
   margin: 5% 2.5%;
-  height: 400px;
-  max-height: 500px;
 }
 .column-client{
   float: left;
@@ -173,28 +158,14 @@ html {
   height: 2rem;
 }
 .grid-spacing-client-icons{
-  width: 90px;
-  height: 90px;
-}
-
-.right-arrow{
-  color: black;
-}
-.right-arrow:hover{
-  color: green;
-}
-.spacer-lol{
-  margin: 2rem 0;
-}
-.card-deck{
-  width: 40vw;
+  width: 60px;
+  height: 60px;
 }
 
 /* Footer */
 #footer {
-  background-color: white;
   position: relative;
-  margin: 5% 2.5% 0 2.5%;
+  margin: 10% 2.5% 2.5%;
 }
 
 .bold-text {
@@ -207,55 +178,112 @@ html {
   font-size: 1.2rem;
   font-weight: 500;
 }
-
-.company-logo-footer {
-  width: 200px;
+.footer-image{
+  width: 150px;
   height: auto;
   display: inline-block;
-  vertical-align: middle;
 }
-
-.company-address {
+.company-logo-footer{
+  width: 150px;
+  height: auto;
+}
+.company-address{
   display: inline-block;
-  text-align: left;
   vertical-align: middle;
-}
-
-.quick-links {
-  list-style-type: none;
   text-align: left;
-  margin-left: 50%;
-  margin-right: 50%;
 }
-
-.contact-links {
+.contact-button{
+  width: 200px;
+  height: 50px;
+  background-color: red;
+  color: white;
+  font-size: 2rem;
+  border: none;
+  border-radius: 10px;
   vertical-align: middle;
+  font-weight: 500;
 }
 
-.icons {
-  margin: 10px 5px;
+.vertical-center{
+  margin: 10% 0 2% 0;
+  position: relative;
 }
 
-.fa-twitter-square {
-  color: black;
-}
+/* Resposniveness */
+@media only screen and (max-width: 900px){
+  .heading{
+    font-size: 2rem;
+  }
+  .desc{
+    font-size: 1.2rem;
+  }
+  .about-img{
+    border-top: 20px solid white;
+    border-left: 20px solid white;
+    border-right: 20px solid white;
+    border-bottom: 10px solid white;
+  }
+  .footer-info{
+    margin-top: 2rem;
+  }
+  .card{
+    margin-top: 5%;
+  }
 
-.fa-facebook-square {
-  color: black;
-}
+  #footer{
+    margin: 10% 2.5%;
+  }
+  #clients{
+    position: relative;
+    margin: 10% 2.5%;
+  }
+  #services{
+    position: relative;
+    margin: 10% 2.5% 0 2.5%;
+  }
+  #about-us{
+    position: relative;
+    margin: 10% 2.5%;
+  }
+  .hero-image {
+    background-image: url("Images/grinding.jpg");
+    background-color: #cccccc;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(12, auto);
+    grid-template-rows: repeat(12, 8.3333333%);
+    animation-name: animate-header-text;
+    animation-duration: 2s;
+  }
 
-.fa-linkedin {
-  color: black;
-}
+  .hero-text {
+    text-align: center;
+    grid-column: 2;
+    grid-row: 6;
+    color: black;
+    width: 60%;
+  }
 
-.fa-twitter-square:hover {
-  color: #00acee;
-}
+  .header-text-large {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: left;
+    background-color: white;
+    box-shadow: 0 10px white;
+    animation-name: animate-header-text;
+    animation-duration: 2.5s;
+  }
 
-.fa-facebook-square:hover {
-  color: #4267B2;
-}
-
-.fa-linkedin:hover {
-  color: #0e76a8;
+  .header-text-small {
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: left;
+    background-color: white;
+    animation-name: animate-header-text;
+    animation-duration: 2.5s;
+  }
 }
