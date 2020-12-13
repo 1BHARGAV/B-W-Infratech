@@ -45,8 +45,8 @@
     <div class="navbar-section" id="navbar">
       <nav class="navbar navbar-expand-xl">
         <!-- Brand -->
-        <a class="navbar-brand" href="#">
-          <img src="Images/B&W_logo-01.svg" alt="B&W Company Logo">B&W Infratech Pvt. Ltd.</a>
+        <a class="navbar-brand" href="index.html">
+          <img src="Images/B&W_logo-01.svg" alt="B&W Company Logo"><strong>B&W Infratech Pvt. Ltd.</strong></a>
 
         <!-- Toggler/collapsibe Button -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -57,24 +57,16 @@
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="#home"><button class="btn btn-dark btn-lg btn-block btn-outline-light navbar-btn"><strong>Home</strong></button></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="about.html"><button class="btn btn-dark btn-block btn-lg btn-outline-light navbar-btn"><strong>Profile</strong></button></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html"><button class="btn btn-dark btn-lg btn-block btn-outline-light navbar-btn"><strong>Projects</strong></button></a>
             </li>
             <li class="nav-item ">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
+              <a class="nav-link" href="#footer"><button class="btn btn-dark btn-lg btn-block btn-outline-light navbar-btn"><strong>Contact</strong></button></a>
             </li>
           </ul>
         </div>
@@ -82,100 +74,108 @@
     </div>
 
     <!-- Header section -->
-
-    <div class="header-image">
-      <h1> <span>WE ARE</span> <br>
-        BRICK & WATER INFRATECH</h1>
+    <div id="home">
+      <div class="header-image">
+        <h1> <span>WE ARE</span> <br>
+          BRICK & WATER INFRATECH</h1>
+      </div>
     </div>
 
-
     <!--About us-->
-    <div id="about-us">
+    <div id="about-us" class="panel">
       <div class="row about left-align">
-        <div class="col-12 col-sm-12 col-md-12 col-lg-6 order-md-first order-lg-first mx-auto my-auto column-text">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 mx-auto my-auto">
           <h2 class="heading">Who are we?</h2>
-          <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac nibh a urna feugiat ornare et a nisl. Morbi justo lorem, cursus viverra arcu at,
-            viverra tristique enim. Cras a finibus elit, in commodo leo. Praesent interdum nibh in imperdiet molestie. In hac habitasse platea dictumst. Vivamus ut tincidunt metus.
-            Sed ornare mauris quis suscipit pharetra. Nam nunc lacus, commodo non pellentesque a, placerat id libero.</p>
-          <button type="button" class="btn btn-dark btn-lg">Learn more</button>
+          <p class="desc">B&W Infratech Pvt. Ltd
+            is a SPV
+            incorporated for the purpose of taking
+            over the companies through NCLT
+            Process on a going concern which are
+            available at a good bargain and has
+            huge scope. We are officed in Hyderabad, India.</p>
+          <button type="button" class="btn btn-dark btn-lg" onclick='location.href="about.html"'>Learn more</button>
         </div>
-        <div class="col-12 col-sm-12 col-lg-6 mx-auto my-auto about-img align-middle column-support">
+        <div class="col-12 col-sm-12 col-lg-6 ml-auto my-auto img-fluid about-img">
 
         </div>
       </div>
     </div>
 
     <!-- Company services -->
-    <div id="services">
-      <div class="column-text left-align row">
+    <div id="services" class="panel">
+      <div class="left-align row">
         <div class="col-12 col-sm-12 col-md-12 col-lg-6 mx-auto my-auto">
           <h2 class="heading">Delivering end-to-end civil infrastructure solutions and services</h2>
           <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac nibh a urna feugiat ornare et a nisl. Morbi justo lorem, cursus viverra arcu at,
             viverra tristique enim. Cras a finibus elit, in commodo leo. Praesent interdum nibh in imperdiet molestie. In hac habitasse platea dictumst. Vivamus ut tincidunt metus.
             Sed ornare mauris quis suscipit pharetra. Nam nunc lacus, commodo non pellentesque a, placerat id libero.</p>
-          <button type="button" class="btn btn-dark btn-lg">Learn more</button>
+          <button type="button" class="btn btn-dark btn-lg"  onclick='location.href="projects.html"'>Learn more</button>
         </div>
-        <div class="col-12 col-sm-12 col-lg-6 order-lg-first">
-          <div class="column-support">
-            <div class="card-deck">
-              <div class="card">
-                <img class="card-img-top" src="Images\Water and environment.jpg" alt="Water">
+        <div class="column-support col-12 col-sm-12 col-md-12 col-lg-6 order-lg-first">
+
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-3">
+            <div class="col mb-4">
+              <div class="card h-100">
+                <i class="card-img-top water-and-environment-image" alt="..."></i>
                 <div class="card-body">
                   <h5 class="card-title">Water and Environment</h5>
                   <!-- <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac nibh a urna feugiat ornare et a nisl..</p> -->
                 </div>
               </div>
-
-              <div class="card">
-                <img class="card-img-top" src="Images\Transportation.jpg" alt="Transportation">
+            </div>
+            <div class="col mb-4">
+              <div class="card h-100">
+                <i class="card-img-top transportation-image" alt="..."></i>
                 <div class="card-body">
                   <h5 class="card-title">Transportation</h5>
                   <!-- <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac nibh a urna feugiat ornare et a nisl.</p> -->
                 </div>
-                <br>
               </div>
-              <div class="card">
-                <img class="card-img-top" src="Images\Construction.jpg" alt="Card image cap">
+            </div>
+            <div class="col mb-4">
+              <div class="card h-100">
+                <i class="card-img-top building-and-industrial-image" alt="..."></i>
                 <div class="card-body">
                   <h5 class="card-title">Building and Industrial Constructions</h5>
                   <!-- <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac nibh a urna feugiat ornare et a nisl.</p> -->
                 </div>
-                <br>
               </div>
             </div>
-            <div class="card-deck">
-              <div class="card">
-                <img class="card-img-top" src="Images\electricity transmission.jpg" alt="Card image cap">
+            <div class="col mb-4">
+              <div class="card h-100">
+                <i class="card-img-top power-image" alt="..."></i>
                 <div class="card-body">
                   <h5 class="card-title">Power distribution</h5>
                   <!-- <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac nibh a urna feugiat ornare et a nisl.</p> -->
                 </div>
-                <br>
               </div>
-              <div class="card">
-                <img class="card-img-top" src="Images\mining.jpg" alt="Card image cap">
+            </div>
+            <div class="col mb-4">
+              <div class="card h-100">
+                <i class="card-img-top mining-image" alt="..."></i>
                 <div class="card-body">
                   <h5 class="card-title">Mining</h5>
                   <!-- <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac nibh a urna feugiat ornare et a nisl.</p> -->
                 </div>
-                <br>
               </div>
-              <div class="card">
-                <img class="card-img-top" src="Images\operations and maintenance.jpg" alt="Card image cap">
+            </div>
+            <div class="col mb-4">
+              <div class="card h-100">
+                <i class="card-img-top op-and-mg-image" alt="..."></i>
                 <div class="card-body">
                   <h5 class="card-title">Operations and Maintenance</h5>
                   <!-- <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac nibh a urna feugiat ornare et a nisl.</p> -->
                 </div>
-                <br>
               </div>
             </div>
           </div>
+
         </div>
       </div>
     </div>
 
     <!-- Clients -->
-    <div id="clients">
+    <div id="clients" class="panel">
       <div class="row left-align">
         <div class="col-12 col-sm-12 col-md-12 col-lg-6 mx-auto my-auto column-text">
           <h2 class="heading">Proud clients we cherish working with</h2>
@@ -268,23 +268,23 @@
 
   <!-- Company presence -->
 
-    <div id="presence">
-      <div class="row left-align">
-        <div class="col-12 col-sm-12 col-md-12 col-lg-6 order-lg-last mx-auto my-auto column-text">
-          <div class="presence-text">
-            <h2 class="heading">We operate across 20+ states across India, and still expanding</h2>
-            <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac nibh a urna feugiat ornare et a nisl. Morbi justo lorem, cursus viverra arcu at,
-              viverra tristique enim. Cras a finibus elit, in commodo leo.</p>
-          </div>
-        </div>
-        <div class="col-12 col-sm-12 col-md-12 col-lg-6 mx-auto my-auto column-support">
-          <div id="mapid"></div>
+  <div id="presence" class="panel">
+    <div class="row left-align">
+      <div class="col-12 col-sm-12 col-md-12 col-lg-6 order-lg-last mx-auto my-auto column-text">
+        <div class="presence-text">
+          <h2 class="heading">We operate in 20+ states across India, and still expanding.</h2>
+          <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac nibh a urna feugiat ornare et a nisl. Morbi justo lorem, cursus viverra arcu at,
+            viverra tristique enim. Cras a finibus elit, in commodo leo.</p>
         </div>
       </div>
+      <div class="col-12 col-sm-12 col-md-12 col-lg-6 mx-auto my-auto column-support">
+        <div id="mapid"></div>
+      </div>
     </div>
+  </div>
 
   <!-- Footer -->
-  <div id="footer" class="border">
+  <div id="footer" class="panel">
     <h2 class="heading m-auto pt-5" style="width: 100%;">Like what you see? Go ahead. Contact us!</h2>
     <div class="row">
       <div class="col-12 col-sm-12 col-md-6 col-lg-6 order-lg-last">
@@ -309,11 +309,9 @@
     </div>
   </div>
   </div>
-
   </div>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script type="text/javascript" src="leafmap.js"></script>
-
+  <script type="text/javascript" src="leafmap.js">
+  </script>
 </body>
-
 </html>
