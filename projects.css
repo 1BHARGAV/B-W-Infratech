@@ -1,0 +1,269 @@
+html {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  font-size: 10px;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin: 0;
+}
+
+/* Projects */
+
+#projects{
+  margin: 5% 2.5% 5% 2.5%;
+  position: relative;
+}
+
+.projects-header-image{
+  background: url("Images/projects-header.jpg");
+  margin: 0 2.5% 10% 2.5%;
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  padding: 0;
+}
+.projects-header-image h1{
+  font-size: 8rem;
+  font-family: sans-serif;
+  text-align: center;
+  text-shadow: 0 0 1px rgba(0, 0, 0, .1);
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+}
+
+/* .only-text-card{
+  font-size: 2rem;
+} */
+
+/*Water and environment*/
+
+.irrigation-image{
+  background-image: url("Images/irrigation.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 150px;
+}
+.drinking-water-image{
+  background-image: url("Images/drinking-water.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 150px;
+}
+.desalination-plant-image{
+  background-image: url("Images/desalination-plant.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 150px;
+}
+.sewage-treatment-image{
+  background-image: url("Images/sewage-treatment.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 150px;
+}
+.industrial-water-solution-image{
+  background-image: url("Images/industrial-water-solution.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 150px;
+}
+.hydro-power-image{
+  background-image: url("Images/hydro-power.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 150px;
+}
+}
+
+/* Transportation */
+
+.bridge-images{
+  background-image: url("Images/bridge.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 150px;
+}
+.highway-image{
+  background-image: url("Images/highway.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 150px;
+}
+.railway-image{
+  background-image: url("Images/railway.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 150px;
+}
+.tunnel-image{
+  background-image: url("Images/tunnel.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 150px;
+}
+.metro-image{
+  background-image: url("Images/metro.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 150px;
+}
+
+/* BUildings and Industrial Constructions */
+
+.residential-building-image{
+  background-image:url("Images/residential-building.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 150px;
+}
+.gated-community-image{
+  background-image: url("Images/gated-community.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 150px;
+}
+.commercial-building-image{
+  background-image: url("Images/commercial-building.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 150px;
+}
+.industrial-building-image{
+  background-image: url("Images/industrial-building.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 150px;
+}
+.institutional-building-image{
+  background-image: url("Images/Institution.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 150px;
+}
+
+/*Power*/
+
+.power-transmission-image{
+  background-image: url("Images/transmission lines.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 150px;
+}
+
+.rural-electrification-image{
+  background-image: url("Images/rural-electrification.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 150px;
+}
+
+.substation-image{
+  background-image: url("Images/substation.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 150px;
+}
+
+.railway-traction-image{
+  background-image: url("Images/railway-traction.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 150px;
+}
+
+.tower-manufacturing-image{
+  background-image: url("Images/tower-manufacture.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 150px;
+}
+
+/*Mining*/
+
+.overburden-removal-image{
+  background-image: url("Images/overburden-removal.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 150px;
+}
+
+.shaft-sinking-image{
+  background-image: url("Images/shaft-sinking.jpg");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 150px;
+}
+.underground-mine-image{
+  background-image: url("Images/underground-mining.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 150px;
+}
+
+/* Operations and management */
+
+.audit-image{
+  background-image: url("Images/audit.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 150px;
+}
+.manpower-image{
+  background-image: url("Images/manpower.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 150px;
+}
+.toll-collection-image{
+  background-image: url("Images/toll-booth.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 150px;
+}
+.spares-image{
+  background-image: url("Images/spares.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 150px;
+}
+
+/*Responsiveness*/
+@media only screen and (max-width: 900px) {
+  .projects-header-image h1{
+    font-size: 4rem;
+    font-weight: 500;
+  }
+}
