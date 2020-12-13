@@ -7,18 +7,16 @@ html {
   margin: 0;
 }
 body{
-  background-color: white;
+  background-color: #f9f6f7;
   text-align: center;
+  height: 100%;
 }
-
 .center-align {
   text-align: center;
 }
-
 .left-align {
   text-align: left;
 }
-
 .heading{
   font-size: 2.5rem;
   font-weight: bold;
@@ -27,18 +25,18 @@ body{
   font-size: 1.5rem;
   font-weight: 400;
 }
+.panel{
+    margin: 10% 2.5%;
+    position: relative;
+    background-color: #ffffff;
+    padding: 50px;
+    box-shadow: 0 5px 10px 0px #dfdfdf;
+}
 
 /* Navbar */
 #navbar{
   position: relative;
 }
-.navbar {
-  height: auto;
-  width: auto;
-  background-color: white;
-  color: black;
-}
-
 .navbar-brand {
   width: 100px;
   color: black;
@@ -48,6 +46,24 @@ body{
   text-align: right;
   font-size: 1.5rem;
   padding: 0 1rem;
+  color: black;
+}
+.nav-item a{
+  text-align: right;
+  font-size: 1.5rem;
+  padding: 0 1rem;
+  color: black;
+}
+.navbar{
+  background-color: #f9f6f7;
+  color: black;
+}
+.panel{
+    margin: 10% 2.5%;
+    position: relative;
+    background-color: #ffffff;
+    padding: 50px;
+    box-shadow: 0 5px 10px 0px #dfdfdf;
 }
 
 /*Header*/
@@ -112,27 +128,18 @@ body{
 }
 
 /* About us */
-#about-us{
-  position: relative;
-  margin: 5% 2.5%;
-}
-
 .about-img{
   background-image: url(Images/about.jpg);
+  background-color: black;
   height: 400px;
-  background-repeat: no-repeat;
+  width: 100%;
   background-position: center;
   background-size: cover;
-  display: block;
-
-}
+  position: relative;
+  object-fit: scale-down;
+  }
 
 /* Services */
-#services{
-  position: relative;
-  margin: 5% 2.5%;
-}
-
 .card-deck{
   margin-top: 2%;
 }
@@ -145,12 +152,50 @@ body{
   opacity: 0.7;
 }
 
+.water-and-environment-image{
+  background-image: url("Images/Water and environment.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 150px;
+}
+.transportation-image{
+  background-image: url("Images/Transportation.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 150px;
+}
+.building-and-industrial-image{
+  background-image: url("Images/Construction.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 150px;
+}
+.power-image{
+  background-image: url("Images/electricity transmission.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 150px;
+}
+.mining-image{
+  background-image: url("Images/mining.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 150px;
+}
+.op-and-mg-image{
+  background-image: url("Images/operations and maintenance.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 150px;
+}
 
 /* Clients */
-#clients{
-  position: relative;
-  margin: 5% 2.5%;
-}
 .column-client{
   float: left;
   width: 50%;
@@ -166,21 +211,12 @@ body{
 }
 
 /* Presence */
-#presence{
-  position: relative;
-  margin: 10% 2.5%;
-}
 #mapid {
   height: 400px;
   width: auto;
 }
 
 /* Footer */
-#footer {
-  position: relative;
-  margin: 10% 2.5% 2.5%;
-}
-
 .bold-text {
   font-weight: bolder;
   font-size: 1.5rem;
@@ -245,21 +281,12 @@ body{
   .card{
     margin-top: 5%;
   }
-
-  #footer{
-    margin: 10% 2.5%;
-  }
-  #clients{
-    position: relative;
-    margin: 10% 2.5%;
-  }
-  #services{
-    position: relative;
-    margin: 10% 2.5% 0 2.5%;
-  }
-  #about-us{
-    position: relative;
-    margin: 10% 2.5%;
+  .panel{
+      margin: 15% 2.5%;
+      position: relative;
+      background-color: #ffffff;
+      padding: 25px;
+      box-shadow: 0 5px 10px 0px #dfdfdf;
   }
   .hero-image {
     background-image: url("Images/grinding.jpg");
