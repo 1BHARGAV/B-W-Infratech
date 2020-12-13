@@ -1,5 +1,168 @@
-html{
-  text-align: center;
+html {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
   font-size: 10px;
-  
+  padding-left: 5%;
+  padding-right: 5%;
+  margin: 0;
+}
+
+/*About company*/
+#about-company{
+  margin: 5% 2.5% 5% 2.5%;
+  position: relative;
+}
+
+#about-company strong{
+  font-size: 2.5rem;
+}
+
+.showcase-icons{
+  color: #21bf73;
+}
+
+.about-company-header-image{
+  background: url("Images/mission-and-vision.jpg");
+  margin: 0 2.5% 10% 2.5%;
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  padding: 0;
+}
+.about-company-header-image h1{
+  font-size: 8rem;
+  font-family: sans-serif;
+  text-align: center;
+  text-shadow: 0 0 1px rgba(0, 0, 0, .1);
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+}
+
+.list-group li{
+  height: 50px;
+  padding: 0 50px 0;
+  font-size: 1.2rem;
+}
+
+
+/* Vision and mission */
+#vision-and-mission {
+  margin: 10% 2.5%;
+  position: relative;
+  padding: 5% 2.5%;
+}
+
+.our-vision-and-mission-header-image {
+  background: url("Images/mission-and-vision.jpg");
+  margin: 0 2.5% 10% 2.5%;
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  padding: 0;
+}
+
+.our-vision-and-mission-header-image h1 {
+  font-size: 8rem;
+  font-family: sans-serif;
+  text-align: center;
+  text-shadow: 0 0 1px rgba(0, 0, 0, .1);
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+}
+
+.mission-vision-goal-padding {
+  text-align: left;
+  color: black;
+}
+
+/* Management team */
+
+.management-header-image {
+  background: url("Images/management-team.jpg");
+  margin: 0 2.5% 10% 2.5%;
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  padding: 0;
+}
+.management-header-image h1 {
+  font-size: 8rem;
+  font-family: sans-serif;
+  text-align: center;
+  text-shadow: 0 0 1px rgba(0, 0, 0, .1);
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+}
+.employee-image img{
+  width: 10vw;
+  height: 10vw;
+  box-shadow: 0 0 10px blue;
+  margin: 0;
+}
+.placeholder-image{
+  background-image: url("Images/management-placeholder.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 200px;
+}
+
+/* Responsive webpage */
+@media only screen and (max-width: 900px) {
+  .vision {
+    margin: 10% 2.5%;
+  }
+
+  .mission {
+    margin: 10% 2.5%;
+  }
+
+  .goal {
+    margin: 10% 2.5% 0;
+  }
+
+  .our-vision-and-mission-header-image h1 {
+    font-size: 4rem;
+    font-weight: 500;
+  }
+  .management-header-image h1 {
+    font-size: 4rem;
+    font-weight: 500;
+  }
+  .about-company-header-image h1{
+    font-size: 4rem;
+    font-weight: 500;
+  }
+  .list-group li{
+    height: 50px;
+    padding: 0 20px;
+    font-size: 1rem;
+  }
+  #about-company strong{
+    font-size: 2.0rem;
+  }
+  .placeholder-image{
+    width: auto;
+    height: 200px;
+    background-image: url("Images/management-placeholder.jpg");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 }
